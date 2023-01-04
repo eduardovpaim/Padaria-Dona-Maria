@@ -1,0 +1,29 @@
+<html>
+<head>
+  <title>Padaria Dona Maria</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Bem-vindo à Padaria Dona Maria</h1>
+  <h2>Faça seu pedido online</h2>
+  <form action="https://www.ifood.com.br/pedido/new" method="POST" id="form-pedido">
+    <label for="nome">Nome:</label><br>
+    <input type="text" id="nome" name="nome"><br>
+    <label for="endereco">Endereço:</label><br>
+    <input type="text" id="endereco" name="endereco"><br>
+    <label for="telefone">Telefone:</label><br>
+    <input type="text" id="telefone" name="telefone"><br>
+    <label for="produtos">Produtos:</label><br>
+    <select id="produtos" name="produtos">
+      <option value="bolo-chocolate">Bolo de chocolate</option>
+      <option value="bolo-limao">Bolo de limão</option>
+      <option value="pao-frances">Pão francês</option>
+      <option value="croissant">Croissant</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Fazer pedido" id="botao-pedido">
+  </form>
+  
+  <script src="script.js"></script>
+</body>
+</html>
